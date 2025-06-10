@@ -1,0 +1,27 @@
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.input-wrapper.sm input {
+    font-size: 12px;
+    padding: 4px;
+
+}
+
+.input-wrapper.md input {
+    font-size: 16px;
+    padding: 6px;
+}
+
+.input-wrapper.lg input {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.icon {
+    margin-right: 8px;
+}
