@@ -7,3 +7,11 @@ color = "blue">
 
 
 <button (click)="openDialog()">Open Dialog</button>
+
+<!-- app.component.html -->
+<app-bootstrap-button
+  [text]="'Click Me'"
+  [color]="'success'"
+  [size]="'lg'"
+  (clicked)="openDialog()"
+></app-bootstrap-button>
