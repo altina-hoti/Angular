@@ -1,0 +1,23 @@
+<app-header></app-header>
+
+<div class="container mt-4">
+
+  <app-custom-input
+    [placeholder]="'Search...'"
+    [icon]="faSearch"
+    size="lg"
+    color="blue">
+  </app-custom-input>
+
+  <button class="btn btn-primary mt-3" (click)="openDialog()">Open Dialog</button>
+
+  <app-bootstrap-button
+    class="mt-2"
+    [text]="'Click Me'"
+    [color]="'success'"
+    [size]="'lg'"
+    (clicked)="openDialog()"
+  ></app-bootstrap-button>
+
+  <app-table class="mt-4"></app-table>
+</div>
