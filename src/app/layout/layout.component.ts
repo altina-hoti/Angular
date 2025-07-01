@@ -7,6 +7,8 @@ import { CustomInputComponent } from '../shared/custom-input/custom-input.compon
 import { BootstrapButtonComponent } from '../shared/bootstrap-button/bootstrap-button.component';
 import { CustomDialogComponent } from '../shared/custom-dialog/custom-dialog.component';
 import { TableComponent } from '../shared/table/table.component';
+import { FooterComponent } from '../shared/footer/footer.component';
+
 
 @Component({
   selector: 'app-layout',
@@ -16,7 +18,8 @@ import { TableComponent } from '../shared/table/table.component';
     HeaderComponent,
     CustomInputComponent,
     BootstrapButtonComponent,
-    TableComponent
+    TableComponent,
+    FooterComponent
   ],
   templateUrl: './layout.component.html',
   styleUrls: ['./layout.component.css']
@@ -32,4 +35,5 @@ export class LayoutComponent {
       width: '400px'
     });
   }
+
 }
